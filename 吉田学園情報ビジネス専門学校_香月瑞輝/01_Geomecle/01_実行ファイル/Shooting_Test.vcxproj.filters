@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{7ab88444-eae7-468e-8849-73dfcb2eb4cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{e58ca4c8-cefa-4b92-b923-dca6919df188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Mode">
+      <UniqueIdentifier>{877756ab-715e-4bf1-82f4-50ca4277bd43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\2D">
+      <UniqueIdentifier>{a03b831d-c237-4aff-81b7-da40c7576562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\3D">
+      <UniqueIdentifier>{bf059c1a-bb5a-4401-b467-b86a7600cabf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\instancing">
+      <UniqueIdentifier>{6d7374bb-862a-4dc6-a051-43b32eb1e8d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\3D\Enemy">
+      <UniqueIdentifier>{0947b851-a952-4b29-a69c-ae65bea5200d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{e8a4b0d0-1785-4ab0-9849-833218a854c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json">
+      <UniqueIdentifier>{8cc487ef-113f-4ef0-b9c3-87f1cebd1231}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{8d02f8b4-8832-4693-b292-6532d8dc6128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{3ac0ac68-0127-4581-bbe8-aa58fa791223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\3D\Circle">
+      <UniqueIdentifier>{79299a80-d008-45be-8d02-91f7ec11df30}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="application.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>System\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>System\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="mode.h">
+      <Filter>System\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="result.h">
+      <Filter>System\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>Object\3D\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_division.h">
+      <Filter>Object\3D\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_homing.h">
+      <Filter>Object\3D\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_rolling.h">
+      <Filter>Object\3D\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_round_trip.h">
+      <Filter>Object\3D\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_snake_body.h">
+      <Filter>Object\3D\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_snake_head.h">
+      <Filter>Object\3D\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_windmill.h">
+      <Filter>Object\3D\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="bg.h">
+      <Filter>Object\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>Object\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Object\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="wall.h">
+      <Filter>Object\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="number.h">
+      <Filter>Object\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>Object\instancing</Filter>
+    </ClInclude>
+    <ClInclude Include="instancing.h">
+      <Filter>Object\instancing</Filter>
+    </ClInclude>
+    <ClInclude Include="exp.h">
+      <Filter>Object\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="tutorial.h">
+      <Filter>System\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="pause.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="number_manager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="score.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="time.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="mul.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_manager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="effect_manager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="object3D.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="object2D.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="inputjoypad.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="inputkeyboard.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="circle.h">
+      <Filter>Object\3D\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="circle_safety.h">
+      <Filter>Object\3D\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="circle_danger.h">
+      <Filter>Object\3D\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_wave.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="circle_manager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="rankingUI.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ranking.h">
+      <Filter>System\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="life.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="bom.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_escape.h">
+      <Filter>Object\3D\Enemy</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="enemy.cpp">
+      <Filter>Object\3D\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_homing.cpp">
+      <Filter>Object\3D\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_round_trip.cpp">
+      <Filter>Object\3D\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_snake_body.cpp">
+      <Filter>Object\3D\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_snake_head.cpp">
+      <Filter>Object\3D\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_windmill.cpp">
+      <Filter>Object\3D\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="application.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_division.cpp">
+      <Filter>Object\3D\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_rolling.cpp">
+      <Filter>Object\3D\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="mode.cpp">
+      <Filter>System\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>System\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>System\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="result.cpp">
+      <Filter>System\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="utility.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="bg.cpp">
+      <Filter>Object\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>Object\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Object\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="wall.cpp">
+      <Filter>Object\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="number.cpp">
+      <Filter>Object\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>Object\instancing</Filter>
+    </ClCompile>
+    <ClCompile Include="instancing.cpp">
+      <Filter>Object\instancing</Filter>
+    </ClCompile>
+    <ClCompile Include="exp.cpp">
+      <Filter>Object\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial.cpp">
+      <Filter>System\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="pause.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="number_manager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="score.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="time.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="mul.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_manager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="effect_manager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="object3D.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="object2D.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="inputjoypad.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="inputkeyboard.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="circle.cpp">
+      <Filter>Object\3D\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="circle_safety.cpp">
+      <Filter>Object\3D\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="circle_danger.cpp">
+      <Filter>Object\3D\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_wave.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="circle_manager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="rankingUI.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ranking.cpp">
+      <Filter>System\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="life.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="bom.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_escape.cpp">
+      <Filter>Object\3D\Enemy</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\TEXT\EnemySpawn.json">
+      <Filter>Json</Filter>
+    </None>
+    <None Include="data\TEXT\Effect.fx">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>

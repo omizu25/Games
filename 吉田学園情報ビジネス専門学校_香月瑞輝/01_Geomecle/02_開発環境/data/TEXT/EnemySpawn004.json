@@ -1,0 +1,115 @@
+{
+  "MAX": 14,
+  "ENEMY0": {
+    "POS": {
+      "X": -600,
+      "Y": 400
+    },
+    "TYPE": 1,
+    "TIMING": 2
+  },
+  "ENEMY1": {
+    "POS": {
+      "X": -500,
+      "Y": 400
+    },
+    "TYPE": 1,
+    "TIMING": 2
+  },
+  "ENEMY2": {
+    "POS": {
+      "X": -400,
+      "Y": 400
+    },
+    "TYPE": 1,
+    "TIMING": 2
+  },
+  "ENEMY3": {
+    "POS": {
+      "X": -300,
+      "Y": 400
+    },
+    "TYPE": 1,
+    "TIMING": 2
+  },
+  "ENEMY4": {
+    "POS": {
+      "X": -200,
+      "Y": 400
+    },
+    "TYPE": 1,
+    "TIMING": 2
+  },
+  "ENEMY5": {
+    "POS": {
+      "X": -100,
+      "Y": 400
+    },
+    "TYPE": 1,
+    "TIMING": 2
+  },
+  "ENEMY6": {
+    "POS": {
+      "X": 0,
+      "Y": 400
+    },
+    "TYPE": 1,
+    "TIMING": 2
+  },
+  "ENEMY7": {
+    "POS": {
+      "X": 100,
+      "Y": 400
+    },
+    "TYPE": 1,
+    "TIMING": 2
+  },
+  "ENEMY8": {
+    "POS": {
+      "X": 200,
+      "Y": 400
+    },
+    "TYPE": 1,
+    "TIMING": 2
+  },
+  "ENEMY9": {
+    "POS": {
+      "X": 300,
+      "Y": 400
+    },
+    "TYPE": 1,
+    "TIMING": 2
+  },
+  "ENEMY10": {
+    "POS": {
+      "X": 400,
+      "Y": 400
+    },
+    "TYPE": 1,
+    "TIMING": 2
+  },
+  "ENEMY11": {
+    "POS": {
+      "X": 500,
+      "Y": 400
+    },
+    "TYPE": 1,
+    "TIMING": 2
+  },
+  "ENEMY12": {
+    "POS": {
+      "X": 600,
+      "Y": 400
+    },
+    "TYPE": 1,
+    "TIMING": 2
+  },
+  "ENEMY13": {
+    "POS": {
+      "X": 0,
+      "Y": 0
+    },
+    "TYPE": 3,
+    "TIMING": 5
+  }
+}

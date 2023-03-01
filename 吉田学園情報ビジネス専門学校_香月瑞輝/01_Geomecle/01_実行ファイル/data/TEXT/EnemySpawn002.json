@@ -1,0 +1,163 @@
+{
+  "MAX": 20,
+  "ENEMY0": {
+    "POS": {
+      "X": 600,
+      "Y": 400
+    },
+    "TYPE": 0,
+    "TIMING": 0
+  },
+  "ENEMY1": {
+    "POS": {
+      "X": 600,
+      "Y": 400
+    },
+    "TYPE": 0,
+    "TIMING": 1
+  },
+  "ENEMY2": {
+    "POS": {
+      "X": 600,
+      "Y": 400
+    },
+    "TYPE": 0,
+    "TIMING": 2
+  },
+  "ENEMY3": {
+    "POS": {
+      "X": 600,
+      "Y": 400
+    },
+    "TYPE": 0,
+    "TIMING": 3
+  },
+  "ENEMY4": {
+    "POS": {
+      "X": 600,
+      "Y": 400
+    },
+    "TYPE": 0,
+    "TIMING": 4
+  },
+  "ENEMY5": {
+    "POS": {
+      "X": -600,
+      "Y": 400
+    },
+    "TYPE": 0,
+    "TIMING": 0
+  },
+  "ENEMY6": {
+    "POS": {
+      "X": -600,
+      "Y": 400
+    },
+    "TYPE": 0,
+    "TIMING": 1
+  },
+  "ENEMY7": {
+    "POS": {
+      "X": -600,
+      "Y": 400
+    },
+    "TYPE": 0,
+    "TIMING": 2
+  },
+  "ENEMY8": {
+    "POS": {
+      "X": -600,
+      "Y": 400
+    },
+    "TYPE": 0,
+    "TIMING": 3
+  },
+  "ENEMY9": {
+    "POS": {
+      "X": -600,
+      "Y": 400
+    },
+    "TYPE": 0,
+    "TIMING": 4
+  },
+  "ENEMY10": {
+    "POS": {
+      "X": 600,
+      "Y": -400
+    },
+    "TYPE": 0,
+    "TIMING": 0
+  },
+  "ENEMY11": {
+    "POS": {
+      "X": 600,
+      "Y": -400
+    },
+    "TYPE": 0,
+    "TIMING": 1
+  },
+  "ENEMY12": {
+    "POS": {
+      "X": 600,
+      "Y": -400
+    },
+    "TYPE": 0,
+    "TIMING": 2
+  },
+  "ENEMY13": {
+    "POS": {
+      "X": 600,
+      "Y": -400
+    },
+    "TYPE": 0,
+    "TIMING": 3
+  },
+  "ENEMY14": {
+    "POS": {
+      "X": 600,
+      "Y": -400
+    },
+    "TYPE": 0,
+    "TIMING": 4
+  },
+  "ENEMY15": {
+    "POS": {
+      "X": -600,
+      "Y": -400
+    },
+    "TYPE": 0,
+    "TIMING": 0
+  },
+  "ENEMY16": {
+    "POS": {
+      "X": -600,
+      "Y": -400
+    },
+    "TYPE": 0,
+    "TIMING": 1
+  },
+  "ENEMY17": {
+    "POS": {
+      "X": -600,
+      "Y": -400
+    },
+    "TYPE": 0,
+    "TIMING": 2
+  },
+  "ENEMY18": {
+    "POS": {
+      "X": -600,
+      "Y": -400
+    },
+    "TYPE": 0,
+    "TIMING": 3
+  },
+  "ENEMY19": {
+    "POS": {
+      "X": -600,
+      "Y": -400
+    },
+    "TYPE": 0,
+    "TIMING": 4
+  }
+}
