@@ -77,4 +77,9 @@ Windows10、Windows11
 ◆ その他 ◆
 
 ◆ ゲーム紹介動画のリンク
-https://youtu.be/_8Y7c9pdIuU
+https://youtu.be/2_cE3avGvOQ
+
+◆ アピールポイント
+障害物が流れてくる風に見える様にSinカーブを使用して
+上下移動したり、斜めに揺らす等の工夫をしている。
+[ obstacle.cpp / obstacle.h ]

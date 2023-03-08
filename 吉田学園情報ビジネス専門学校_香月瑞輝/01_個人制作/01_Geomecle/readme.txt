@@ -83,3 +83,11 @@ Windows10、Windows11
 ◆ ゲーム紹介動画のリンク
 https://youtu.be/_8Y7c9pdIuU
 
+◆ アピールポイント
+シェーダーとインスタンシングを使用する事で、
+超大量のポリゴンの描画を可能にしている。
+[ Effect.fx ]
+[ effect.cpp / effect.h ]
+[ effect_manager.cpp / effect_manager.h ]
+[ instancing.cpp / instancing.h ]
+

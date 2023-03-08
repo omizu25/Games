@@ -17,8 +17,22 @@
 
 ◆ プログラマー
 
-◇ 流れてくる障害物の実装
-◇ シングル、マルチで変更するUI、システムの実装
-◇ エフェクトの実装
-◇ UIの配置
+◇ メインギミックの流れてくる障害物の実装
+[ obstacle.cpp / obstacle.h ]
+[ obstacle_manager.cpp / obstacle_manager.h ]
 
+◇ エフェクトの実装
+[ Effect.fx ]
+[ effect.cpp / effect.h ]
+[ instancing.cpp / instancing.h ]
+
+◇ シングル、マルチで変更するシステム、UIの実装
+[ title.cpp / title.h ]
+[ game.cpp / game.h ]
+[ result.cpp / result.h ]
+[ time.cpp / time.h ]
+
+◇ UIの配置
+[ title.cpp / title.h ]
+[ game.cpp / game.h ]
+[ result.cpp / result.h ]
